@@ -34,4 +34,4 @@ export const COMMIT_TYPES = {
         description: 'Add or update build scripts',
         release: false
     }
-}
+} 

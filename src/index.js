@@ -15,7 +15,7 @@ import { COMMIT_TYPES } from './commit-types.js'
 import { getChangedFiles, getStagedFiles, gitAdd, gitCommit } from './git.js'
 
 intro(
-    colors.inverse(` Asistente para la creación de commits por ${colors.yellow(' @midudev ')}`)
+    colors.inverse(` Asistente para la creación de commits por ${colors.yellow(' @zuri ')}`)
 )
 
 const [changedFiles, errorChangedFiles] = await trytm(getChangedFiles())
